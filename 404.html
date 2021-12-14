@@ -117,12 +117,12 @@
                             <!-- LAYER NR. 2 -->
                             <div class="tp-caption Polygon-style-01  " id="slide-25-layer-2"
                              data-x="['center','center','center','center']"
-                             data-hoffset="['150','297','0','15']"
+                             data-hoffset="['0','0','0','0']"
                              data-y="['middle','top','top','top']"
                              data-voffset="['50','222','460','190']"
-                             data-fontsize="['70','70','60','40']"
+                             data-fontsize="['70','50,'40','30']"
                              data-lineheight="['77','77','60','55']"
-                             data-width="['1240','685','700','278']"
+                             data-width="['1400','685','700','278']"
                              data-height="['220','220','121','none']"
                              data-whitespace="normal"
                              data-transform_idle="o:1;"
@@ -133,7 +133,7 @@
                              data-splitin="none"
                              data-splitout="none"
                              data-responsive_offset="on"
-                             data-end="11000" style="z-index: 7; min-width: 685px; max-width: 685px; max-width: 220px; max-width: 220px; white-space: normal; font-size: 70px; line-height: 77px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Lato;">AI應用輔助學習 提升工作競爭力
+                             data-end="11000" style="z-index: 7; min-width: 685px; max-width: 685px; font-size: 70px; line-height: 77px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Lato;"> 透過<span style="font-weight: 500">AI</span>規劃複習進度，考證學習無往不利
                             </div>
                             <!-- LAYER NR. 3 -->
                            
@@ -418,15 +418,38 @@
           <h2 class="text-uppercase">business partners</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-4 text-center col-lg-offset-4 col-md-offset-4"> 
-         <a href="partner.html#"><div class="pic" style="transform:translateY(25%);"><img src="images/partner/2.png" class="img-responsive" alt="" /></div></a>
+      <div class="row" style="display:flex;justify-content:space-evenly;">
+        <div class="col-lg-4 col-sm-4 text-center"> 
+         <a href="partner.html"><div class="pic" style="transform:translateY(25%);"><img src="images/partner/2.png" class="img-responsive" alt="" /></div></a>
           <div class="space-top-20 space-bottom-20"> <img width="1" height="60" src="images/line.jpg" class="center-block" alt="" /> </div>
-          <a href="partner.html#g" class="hoverblue"><h5>讀家雲端學院</h5></a>
+          <a href="partner.html" class="hoverblue"><h5>讀家雲端學院</h5></a>
+        </div>
+        <div class="col-lg-4 col-sm-4 text-center"> 
+          <a href="partner2.html"><div class="pic" style="display:flex;justify-content: center;">
+
+            <div class="img-responsive" style="text-align:center;background-image: url(images/partner/3.jpg);background-repeat:no-repeat;    height: 100%;
+            width: 100%;
+            background-size: contain;background-position: center;" id="mainpage" ></div>
+          
+          </div></a>
+           <div class="space-top-20 space-bottom-20"> <img width="1" height="60" src="images/line.jpg" class="center-block" alt="" /> </div>
+           <a href="partner2.html" class="hoverblue"><h5>鼎文公職</h5></a>
+         </div>
+      </div>
+      <div class="row" style="display:flex;justify-content:space-evenly;">
+        <div class="productBtn col-lg-4 col-sm-4 text-center"> 
+          <a class="bttn medium" href="partner.html">
+            <span>MORE</span>
+          </a>
+        </div>
+        <div class="productBtn col-lg-4 col-sm-4 text-center"> 
+          <a class="bttn medium" href="partner2.html">
+            <span>MORE</span>
+          </a>
         </div>
       </div>
     </div>
-    <div class="productBtn"> <a class="bttn medium" href="partner.html"><span>MORE</span></a></div>
+
   </div>
   <!-- ****************** 使命宣言 ******************* -->
   <div class="about-team-header about-team-header2" id="mission">
@@ -559,7 +582,7 @@
         easing: 'ease-in-out-sine'
       });
 
-      setInterval(addItem, 300);
+      //setInterval(addItem, 300);
 
       var itemsCounter = 1;
       var container = document.getElementById('aos-demo');
