@@ -108,6 +108,9 @@ a, a:hover, a:focus, input, input:focus, button, button:focus, textarea, textare
 	max-width: 960px;
 }
 .pic {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 100%;
 	height: 250px;
 	overflow: hidden;
