@@ -9747,3 +9747,20 @@ a, a:hover, a:focus, input, input:focus, button, button:focus, textarea, textare
 	}
 
 }
+
+.contactLink{
+	text-decoration: underline;
+	margin: 0;
+}
+
+.CeregoContact{
+	margin-top: 16px;
+    font-family: "Noto Sans TC", Sans-serif;
+    font-size: 20px ;
+    font-weight: 500 ;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+}
