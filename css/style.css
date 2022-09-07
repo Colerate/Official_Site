@@ -9736,3 +9736,14 @@ a, a:hover, a:focus, input, input:focus, button, button:focus, textarea, textare
 .aboutinfo{
 	min-height: 200px;
 }
+
+.Cooperation_wrap{
+	display: flex;
+}
+
+@media (max-width: 768px) {
+	.Cooperation_wrap{
+		flex-direction: column;
+	}
+
+}
