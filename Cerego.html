@@ -477,6 +477,46 @@
         top: -4rem;
       }
     }
+
+    .Cooperation_wrap {
+      display: flex;
+    }
+
+    @media (max-width: 768px) {
+      .Cooperation_wrap {
+        flex-direction: column;
+      }
+
+    }
+
+    .contactLink {
+      text-decoration: underline;
+      margin: 0;
+    }
+
+    .CeregoContact {
+      margin-top: 16px;
+      font-family: "Noto Sans TC", Sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.4em;
+      letter-spacing: 1px;
+      margin: 0 24px;
+      text-align: justify;
+    }
+    .cooperateLink{
+      display: inline;
+      text-decoration: underline !important;
+      margin: 0;
+    }
+    .cooperateLink:hover{
+      margin: 0;
+      color: #19acef;
+    }
+    .CeregoContactWrap{
+      display: flex;
+      justify-content: center;
+    }
   </style>
 </head>
 
@@ -545,7 +585,7 @@
               <div class="elementor-element elementor-element-8b12066 elementor-widget elementor-widget-heading"
                 data-id="8b12066" data-element_type="widget" data-widget_type="heading.default">
                 <div class="elementor-widget-container">
-                 
+
                 </div>
               </div>
               <div
@@ -1476,10 +1516,10 @@
               </div>
               <div class="elementor-element elementor-element-6aca5d68 elementor-widget elementor-widget-heading"
                 data-id="6aca5d68" data-element_type="widget" data-widget_type="heading.default">
-                <div class="elementor-widget-container">
-                  <h2 class="CeregoContact">
-                    選擇Cerego，用數據證明學習成效， 立即加入智能學習行列，想知道更多平台使用訊息， 歡迎留下資訊，將有專人與您聯繫
-                  </h2>
+                <div class='CeregoContactWrap'>
+                  <div class="CeregoContact">
+                    選擇Cerego，用數據證明學習成效， 立即加入智能學習行列，想知道更多平台使用訊息，歡迎<a class="cooperateLink" href="https://www.colerate.com.tw/#cooperation">留下資訊</a>，將有專人與您聯繫
+                  </div>
                 </div>
               </div>
               <!-- <div
