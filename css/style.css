@@ -1332,6 +1332,7 @@ footer.footer2 {
 	border-radius: 0px;
 	text-transform: uppercase;
 	display: inline-block;
+
 }
 .bttn:hover {
 	color: #fff;
@@ -1340,6 +1341,7 @@ footer.footer2 {
 }
 .bttn.medium {
 	padding: 8px 25px;
+	min-width: min-content;
 }
 .bttn.skin-fill-blue {
 	color: #FFF;
